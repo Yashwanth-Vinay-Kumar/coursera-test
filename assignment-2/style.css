@@ -1,0 +1,98 @@
+*{box-sizing: border-box;
+margin:0px;padding:0px;}
+@media (min-width:992px){
+    .lg-1,.lg-2,.lg-3,.lg-4,.lg-5,.lg-6,.lg-7,.lg-8,.lg-9,.lg-10,.lg-11,.lg-12{
+        float: left;
+        margin-left:17px;
+        margin-top:20px;
+        margin-right:15px;
+        margin-bottom: 20px;
+        padding:5px;
+    }
+    .lg-1{width:8%}
+    .lg-2{width:16%}
+    .lg-3{width:24%}
+    .lg-4{width:30%}
+    .lg-5{width:40%}
+    .lg-6{width:48%}
+    .lg-7{width:56%}
+    .lg-8{width:64%}
+    .lg-9{width:72%}
+    .lg-10{width:80%}
+    .lg-11{width:86%}
+    .lg-12{width:94%}
+}
+@media (min-width:768px) and (max-width:991px){
+    .md-1,.md-2,.md-3,.md-4,.md-5,.md-6,.md-7,.md-8,.md-9,.md-10,.md-11,.md-12{
+        float: left;
+        margin:10px;
+        margin-left: 16px;
+        padding:5px;
+    }
+    .md-1{width:8%}
+    .md-2{width:16%}
+    .md-3{width:24%}
+    .md-4{width:32%}
+    .md-5{width:40%}
+    .md-6{width:45%}
+    .md-7{width:56%}
+    .md-8{width:64%}
+    .md-9{width:72%}
+    .md-10{width:80%}
+    .md-11{width:86%}
+    .md-12{width:94%}
+}
+@media (max-width:767px){
+    .s-1,.s-2,.s-3,.s-4,.s-5,.s-6,.s-7,.s-8,.s-9,.s-10,.s-11,.s-12{
+        float: left;
+        margin: 10px;
+        padding:5px;
+    }
+    .s-1{width:8%}
+    .s-2{width:16%}
+    .s-3{width:24%}
+    .s-4{width:32%}
+    .s-5{width:40%}
+    .s-6{width:44%}
+    .s-7{width:56%}
+    .s-8{width:64%}
+    .s-9{width:72%}
+    .s-10{width:80%}
+    .s-11{width:86%}
+    .s-12{width:96%}
+}
+body{
+    background-color:gray;
+}
+#div1{
+    background-color:aquamarine;border-style:solid;
+
+}
+#div2{
+    background-color:yellowgreen;border-style: solid;
+
+}
+#div3{
+    background-color: darksalmon;border-style: solid;
+
+}
+h1{text-align: center;
+margin:15px ;
+color:goldenrod;}
+div{position: relative; border: black 5px;}
+section{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    margin: 0px;
+    padding:2px;
+    border:black 5px;
+    font-size: 150%;
+    background-color: hotpink;  
+
+}
+p{
+    font-size: 120%;
+    padding:50px;
+}
+
